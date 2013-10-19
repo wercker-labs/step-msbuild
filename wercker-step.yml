@@ -1,0 +1,14 @@
+name: msbuild
+version: 0.0.1
+description: Builds a .net solution
+keywords:
+  - msbuild
+  - .net
+  - c#
+properties:
+  solution:
+    type: string
+  configuration:
+    type: string
+
+
