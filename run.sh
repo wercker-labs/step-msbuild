@@ -5,4 +5,4 @@ else
   echo "Building with default configuration."
 fi
 
-/cygdrive/c/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe $MSBUILD_CONFIG $WERCKER_MSBUILD_SOLUTION
+/cygdrive/c/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe $MSBUILD_CONFIG "$WERCKER_MSBUILD_SOLUTION"
