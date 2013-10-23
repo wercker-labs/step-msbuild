@@ -1,10 +1,12 @@
 name: msbuild
-version: 0.0.5
+version: 0.0.6
 description: Builds a .net solution
 keywords:
   - msbuild
   - .net
   - c#
+report-filename: buildresult.xml
+report-type: msbuild
 properties:
   solution:
     type: string
